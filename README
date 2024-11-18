@@ -1,0 +1,21 @@
+# QR Code Generator
+
+A simple Python script to generate QR codes.
+
+## Usage
+
+1. Install the `qrcode` package: `pip install qrcode`
+2. Run the script: `python qrcode_generator.py`
+3. Enter the data to be encoded when prompted
+4. Enter the filename to save the QR code to when prompted
+5. The QR code will be saved as a PNG image with the given filename
+
+## Example
+
+```
+$ python qrcode_generator.py
+Enter the data to be encoded: https://www.example.com
+Enter the filename to save the QR code to: example_qrcode
+```
+
+The QR code will be saved as `example_qrcode.png`, and you can open it with any image viewer to see the QR code.
